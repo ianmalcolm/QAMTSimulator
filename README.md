@@ -11,19 +11,21 @@ We employ a lot of terminologies from [D-Wave](https://www.dwavesys.com/) quantu
 
 We develop an event-based QAMTS simulator in Python that serves as a platform to evaluate scheduling algorithms for QAMT. The figure below shows the diagram of the simulator. It takes a series of tasks as input. A QAMT scheduler combines one or multiple tasks into an instruction. The scheduler may consider the status of the annealer when translating tasks into instructions. The instructions are fed into an annealer and executed sequentially.
 
+<p align="center">
 <img src="images/qamts.png" alt="Diagram of QAMTSimulator" width="66%"/>
+</p>
 
 To facilitate the development and evaluation of various scheduling algorithms, we implemented a few visualisation tools along with the simulator. These tools inspect scheduling from a space allocation and time scheduling point of view.
 
-
+<p align="center">
 <img src="images/temporal.png" alt="Temporal scheduling" width="66%"/>
-
+</p>
 
 The figure above shows the allocation of space produced by a scheduling algorithm.  X axis is time, Y axis is resource utilisation. A long vertical bar has a few segments, which indicate the space in that period is shared by a few tasks.
 
-
+<p align="center">
 <img src="images/spatial.png" alt="Spatial scheduling" width="66%"/>
-
+</p>
 
 The figure above shows the timing aspect of tasks achieved by the demo schedule. The device has a 16x16 unit cells. A gray block represents the resource occupied by a task.
 
