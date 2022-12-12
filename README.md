@@ -1,8 +1,20 @@
 # QAMTSimulator
 
-Quantum Annealing Multitasking Simulator
+QAMTSimulator stands for Quantum Annealing Multitasking Simulator.
 
-Usage:
+This simulator is for simulating Multitasking on Quantum Annealing devices. Multitasking would improve the resource utilisation of quantum annealers. The capacity of quantum computers has been scaled up several thousand times in the past two decades. We believe that the need for QAMT also increases along with the capacity of a quantum annealer. Time-critical applications such as automation control and autonomous driving would benefit from QAMT, as the execution time of tasks is known. Multitasking would also enable virtualisation of quantum annealers, allowing multiple users to share a quantum annealer without knowing the existence of other users. The sharing of quantum annealers would reduce the cost of usage and spark new applications and opportunities.
+
+We employ a lot of terminologies from [D-Wave](https://www.dwavesys.com/) quantum annealing systems. But the simulator applies to any quantum computing system that adopt ``Array of unit cells`` design methodology.
+
+
+## Introduction
+
+We develop an event-based QAMTS simulator in Python that serves as a platform to evaluate scheduling algorithms for QAMT. The figure below shows the diagram of the simulator. It takes a series of tasks as input. A QAMT scheduler combines one or multiple tasks into an instruction. The scheduler may consider the status of the annealer when translating tasks into instructions. The instructions are fed into an annealer and executed sequentially.
+
+![QAMTSimulator](images/qamts.png "Diagram of QAMTSimulator")
+
+
+## Usage
 
 ```python
 #import a few modules
@@ -36,6 +48,8 @@ sim.run()
 ```
 
 For more detailed usage, please check this [example](examples/example.ipynb)
+
+## Citation
 
 This is a python implementation of the work in the following paper:  
 Huang, Tian and Zhu, Yongxin and Goh, Rick Siow Mong and Luo, Tao, When Quantum Annealing Meets Multitasking: Potentials, Challenges and Opportunities. Available at SSRN: https://ssrn.com/abstract=4252155 or http://dx.doi.org/10.2139/ssrn.4252155
