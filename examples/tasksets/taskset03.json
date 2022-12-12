@@ -1,0 +1,72 @@
+[
+    {
+        "name": "t00",
+        "embd": "np.ones((10,9), dtype=int)",
+        "num_reads": 100,
+        "anneal_time": 2000,
+        "t_arrive": 0
+    },
+    {
+        "name": "t01",
+        "embd": "np.ones((2,2), dtype=int)",
+        "num_reads": 400,
+        "anneal_time": 2000,
+        "t_arrive": 304000
+    },
+    {
+        "name": "t02",
+        "embd": "np.ones((3,4), dtype=int)",
+        "num_reads": 500,
+        "anneal_time": 2000,
+        "t_arrive": 610000
+    },
+    {
+        "name": "t03",
+        "embd": "np.ones((3,3), dtype=int)",
+        "num_reads": 300,
+        "anneal_time": 2000,
+        "t_arrive": 916000
+    },
+    {
+        "name": "t04",
+        "embd": "np.ones((3,2), dtype=int)",
+        "num_reads": 900,
+        "anneal_time": 2000,
+        "t_arrive": 1222000
+    },
+    {
+        "name": "t05",
+        "embd": "np.ones((10,8), dtype=int)",
+        "num_reads": 200,
+        "anneal_time": 2000,
+        "t_arrive": 1526000
+    },
+    {
+        "name": "t06",
+        "embd": "np.ones((11,12), dtype=int)",
+        "num_reads": 600,
+        "anneal_time": 2000,
+        "t_arrive": 1832000
+    },
+    {
+        "name": "t07",
+        "embd": "np.ones((7,8), dtype=int)",
+        "num_reads": 1000,
+        "anneal_time": 2000,
+        "t_arrive": 2138000
+    },
+    {
+        "name": "t08",
+        "embd": "np.ones((1,1), dtype=int)",
+        "num_reads": 700,
+        "anneal_time": 2000,
+        "t_arrive": 2444000
+    },
+    {
+        "name": "t09",
+        "embd": "np.ones((2,1), dtype=int)",
+        "num_reads": 800,
+        "anneal_time": 2000,
+        "t_arrive": 2750000
+    }
+]

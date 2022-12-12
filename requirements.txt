@@ -1,0 +1,10 @@
+tox
+black
+isort
+numpy
+scipy
+matplotlib
+pytest
+pytest-cov
+pytest-randomly
+-e .
