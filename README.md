@@ -21,13 +21,13 @@ To facilitate the development and evaluation of various scheduling algorithms, w
 <img src="images/temporal.png" alt="Temporal scheduling" width="66%"/>
 </p>
 
-The figure above shows the allocation of space produced by a scheduling algorithm.  X axis is time, Y axis is resource utilisation. A long vertical bar has a few segments, which indicate the space in that period is shared by a few tasks.
+The figure above shows the schedule of time slice produced by a scheduling algorithm.  X axis is time, Y axis is resource utilisation. A long vertical bar has a few segments, which indicate the space in that period is shared by a few tasks.
 
 <p align="center">
 <img src="images/spatial.png" alt="Spatial scheduling" width="66%"/>
 </p>
 
-The figure above shows the timing aspect of tasks achieved by the demo schedule. The device has a 16x16 unit cells. A gray block represents the resource occupied by a task.
+The figure above shows the spatial aspect of tasks achieved by the demo schedule. The device has a 16x16 unit cells. A gray block represents the resource occupied by a task.
 
 
 
